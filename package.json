@@ -1,6 +1,8 @@
 {
-  "name": "laura_ay",
+  "name": "laura_ay.github.io",
   "version": "0.1.0",
+  "description": "My Home Page",
+
   "homepage": "https://github.com/LauraAy/LauraAy.github.io.git",
   "private": true,
   "dependencies": {
@@ -10,7 +12,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.3.0",
-    "react-scripts": "^2.1.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
