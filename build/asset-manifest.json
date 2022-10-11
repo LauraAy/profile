@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/LauraAy/LauraAy.github.io.git/static/css/main.073c9b0a.css",
-    "main.js": "/LauraAy/LauraAy.github.io.git/static/js/main.604ae762.js",
-    "static/js/787.07f8d955.chunk.js": "/LauraAy/LauraAy.github.io.git/static/js/787.07f8d955.chunk.js",
+    "main.css": "/LauraAy/LauraAy.github.io.git/static/css/main.e6c13ad2.css",
+    "main.js": "/LauraAy/LauraAy.github.io.git/static/js/main.2daa431c.js",
     "index.html": "/LauraAy/LauraAy.github.io.git/index.html",
-    "main.073c9b0a.css.map": "/LauraAy/LauraAy.github.io.git/static/css/main.073c9b0a.css.map",
-    "main.604ae762.js.map": "/LauraAy/LauraAy.github.io.git/static/js/main.604ae762.js.map",
-    "787.07f8d955.chunk.js.map": "/LauraAy/LauraAy.github.io.git/static/js/787.07f8d955.chunk.js.map"
+    "main.e6c13ad2.css.map": "/LauraAy/LauraAy.github.io.git/static/css/main.e6c13ad2.css.map",
+    "main.2daa431c.js.map": "/LauraAy/LauraAy.github.io.git/static/js/main.2daa431c.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.604ae762.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2daa431c.js"
   ]
 }
