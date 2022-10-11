@@ -7,7 +7,7 @@ import React from 'react'
 
 const AboutCard = () => {
  return ( 
-  <h2>Hello World!</h2>
+  <h2>New Page coming soon!</h2>
     // <>
     // <div class="card m-3" >
     //   <h2 class="card-title">About Me</h2>
