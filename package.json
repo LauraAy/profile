@@ -4,7 +4,7 @@
   "description": "My Home Page",
 
   // "homepage": "https://github.com/LauraAy/LauraAy.github.io.git",
-  "homepage": ".",
+  "homepage": "https://lauraay.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
