@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "My Home Page",
 
+  // "homepage": "https://github.com/LauraAy/LauraAy.github.io.git",
   "homepage": ".",
   "private": true,
   "dependencies": {
