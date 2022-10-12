@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "My Home Page",
 
-  // "homepage": "https://github.com/LauraAy/LauraAy.github.io.git",
   "homepage": "https://lauraay.github.io/",
   "private": true,
   "dependencies": {
@@ -46,7 +45,6 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "repository": {
     "type": "git",
