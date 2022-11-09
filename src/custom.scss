@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+$body-bg: #2d313d;
+$theme-colors: (
+    primary: #becaf4
+  );
+
+@import "bootstrap";
+
+
+
+
+

@@ -3,8 +3,8 @@ import { render } from "react-dom";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import Home from './pages/Home'
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 
 const rootElement = document.getElementById("root");
 render(  
