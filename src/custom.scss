@@ -3,14 +3,32 @@
 @import "../node_modules/bootstrap/scss/mixins";
 
 
-$body-bg: #2d313d;
+$body-bg: #1c2a40;
+
 $theme-colors: (
-    primary: #becaf4
-  );
+    primary: #cbd9f0
+);
+
 
 @import "bootstrap";
 
+@mixin theme($theme: #1c2a40) {
+    background: $theme;
+    color: #cbd9f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+    background-color: #0e1520;
+}
 
+.nav-link {
+    color: #cbd9f0;
+}
 
+.navbar-brand {
+    color: #cbd9f0;
+}
 
-
+.blend_card {
+    @include theme;
+}

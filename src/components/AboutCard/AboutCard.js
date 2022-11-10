@@ -1,7 +1,6 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Card from 'react-bootstrap/Card';
+
 // import {
 //   Link
 // } from 'react-router-dom'
@@ -9,21 +8,19 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const AboutCard = () => {
  return ( 
-    <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-
-  <h2 class="text-primary" >New Page coming soon!</h2>
-  
-    </>
+   <Card class="blend_card" style={{width: "18rem"}}>
+      <Card.Body>
+        <Card.Title>Laura Aydelotte</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Developer, Manager, Historian</Card.Subtitle>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Card.Link href="#">Card Link</Card.Link>
+        <Card.Link href="#">Another Link</Card.Link>
+      </Card.Body>
+    </Card>
+ 
   )
 }
 
