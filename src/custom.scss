@@ -16,6 +16,7 @@ $theme-colors: (
     background: $theme;
     color: #cbd9f0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .navbar {
     background-color: #0e1520;
@@ -31,4 +32,5 @@ $theme-colors: (
 
 .blend_card {
     @include theme;
+    padding: 100px 0px 0px 0px;
 }
