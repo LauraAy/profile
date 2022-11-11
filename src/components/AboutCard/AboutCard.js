@@ -3,17 +3,20 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from "react-bootstrap/Image";
+// import Headshot2 from src/Headshot2.jpg;
 // import {
 //   Link
 // } from 'react-router-dom'
-// const image = require('./head_shot.JPG')
+const image = require('./Headshot2.jpg')
 
 const AboutCard = () => {
  return ( 
+  <>
   <Container>
     <Row>
-      <Col xsm={12} md={6}>
-        <h2>Column</h2>
+      <Col xsm={12} sm={12} md={6}>
+        <Image src={image} alt="Photograph of woman in white blouse." width="500px"/>
       </Col>
       <Col xsm={12} md={6}>
         <Container >
@@ -25,16 +28,16 @@ const AboutCard = () => {
               I'm a full stack developer dedicated to creating user centered applications with an elegant blend form and function. My coding skills grew out of my experience as a project manager guiding projects through the lifecycle from start to completion. My understanding of both technical practice and larger level project needs makes me adept at both building projects with creative solutions in response to user needs and fostering communication and collaboration between the user and development sides. 
               <br></br>
               <br></br>
-              With a Master's in Library and Information Science, and a PhD specializing in book and media history, I offer a particular blend of expertise that knows how to work with both big data and big ideas. This background means I offer a unique blend of specialized knowledge to libraries, universities and other parts of the cultural heritage sector, and I bring a fresh creative perspective and innovative problem solving approach to a variety of other industries. 
+              With a Master's in Library and Information Science, and a PhD specializing in book and media history, I offer expertise that knows how to work with both big data and big ideas. I offer a unique blend of specialized knowledge and experience to libraries, universities and other parts of the cultural heritage sector, and I bring a fresh creative perspective and innovative problem solving approach to a variety of other industries. 
               </Card.Text>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+             
           </Card.Body>
           </div> 
          </Container>
       </Col>
     </Row>
   </Container>
+  </>
  
   )
 }
