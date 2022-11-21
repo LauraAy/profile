@@ -1,20 +1,18 @@
-import React from 'react';
-import { render } from "react-dom"; 
-import { HashRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import ReactDom from "react-dom";
+import {HashRouter as Router} from "react-router-dom"
 import './index.css';
-import Home from './pages/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
+import App from "./app.js"
 
-const rootElement = document.getElementById("root");
-render(  
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </HashRouter>,
-    rootElement
-  );
-  
+ReactDom.render(
+    <React.StrictMode>
+    <Router>
+        <App />
+    </Router>
+    </React.StrictMode>,
+    document.getElementById("root")
+);
 
 

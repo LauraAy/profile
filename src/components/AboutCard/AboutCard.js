@@ -4,15 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from "react-bootstrap/Image";
-// import Headshot2 from src/Headshot2.jpg;
-// import {
-//   Link
-// } from 'react-router-dom'
+
 const image = require('./Headshot2.jpg')
 
 const AboutCard = () => {
  return ( 
-  <>
   <Container>
     <Row>
       <Col xsm={12} sm={12} md={6}>
@@ -37,7 +33,7 @@ const AboutCard = () => {
       </Col>
     </Row>
   </Container>
-  </>
+
  
   )
 }
