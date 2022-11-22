@@ -20,6 +20,7 @@ $theme-colors: (
 }
 .navbar {
     background-color: #0e1520;
+    padding-left: 15px;
 }
 
 .nav-link {
@@ -28,6 +29,11 @@ $theme-colors: (
 
 .navbar-brand {
     color: #cbd9f0;
+}
+
+.navbar>.active>a {
+    background-color: yellow;
+    color: green;
 }
 
 .blend_card {

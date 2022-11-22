@@ -1,32 +1,27 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {
-  Link
-} from 'react-router-dom'
-// import {LinkContainer} from 'react-router-bootstrap'
+import {LinkContainer} from 'react-router-bootstrap'
 
 
 const NavbarComponent = () => {
  return ( 
     <>
-      <Navbar class="fixed-top">
-        <Container>
-          <Navbar.Brand to="/">
-            Laura Aydelotte
-          </Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link>
-            <Link to="/">Home</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/Developer">Developer</Link>
-            </Nav.Link>
-            {/* <Nav.Link as={Link} href="#Manager">Project Manager</Nav.Link>
-            <Nav.Link as={Link} href="#Historian">Book Historian</Nav.Link> */}
+      <Navbar class="fixed-top" variant="dark">
+        <LinkContainer to="/">
+          <Navbar.Brand>Laura Aydelotte</Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+          <LinkContainer to="/">
+              <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/Developer">
+              <Nav.Link>Developer</Nav.Link>
+            </LinkContainer>
           </Nav>
-        </Container>
+        </Navbar.Collapse>
       </Navbar>
     </>
   )
