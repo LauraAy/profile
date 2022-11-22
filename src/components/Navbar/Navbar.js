@@ -15,11 +15,17 @@ const NavbarComponent = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
           <LinkContainer to="/">
-              <Nav.Link>Home</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/Developer">
-              <Nav.Link>Developer</Nav.Link>
-            </LinkContainer>
+            <Nav.Link>Home</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/developer">
+            <Nav.Link>Developer</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/manager">
+            <Nav.Link>Manager</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/historian">
+            <Nav.Link>Historian</Nav.Link>
+          </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

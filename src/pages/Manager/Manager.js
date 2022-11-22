@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
+import ManagerCard from '../../components/ManagerCard'
 
 const Manager = () => {
     return(
       <>
-       <Navbar/>
+       <Navbar />
+       <ManagerCard />
       </>
     )
   }
