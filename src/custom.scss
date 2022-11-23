@@ -38,5 +38,6 @@ $theme-colors: (
 
 .blend_card {
     @include theme;
-    padding: 100px 0px 0px 0px;
+    padding: 50px 0px 0px 20px;
+    
 }
