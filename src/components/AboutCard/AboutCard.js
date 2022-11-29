@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Image from "react-bootstrap/Image";
 
 const image = require('./Headshot3.jpg')
+const resume = require('./Aydelotte_resume_tech.pdf')
 
 const AboutCard = () => {
  return ( 
@@ -24,10 +25,11 @@ const AboutCard = () => {
               I'm a full stack developer dedicated to creating user centered applications with an elegant blend form and function. My coding skills grew out of my experience as a project manager guiding projects through the lifecycle from start to completion. My understanding of both technical practice and larger level project needs makes me adept at both building projects with creative solutions in response to user needs and fostering communication and collaboration between the user and development sides. 
               <br></br>
               <br></br>
-              With a Master's in Library and Information Science, a fullstack coding certificate from UC Irvine, and a PhD specializing in book and media history, I know how to work with both big data and big ideas. I offer a unique blend of expertise and experience to libraries, universities and other parts of the higher education and cultural heritage sector, and I bring a fresh creative perspective and innovative problem solving approach to a variety of other industries. 
+              With a Master's in Library and Information Science, a fullstack coding certificate, and a PhD specializing in book and media history, I know how to work with both big data and big ideas. I offer a unique blend of expertise and experience to libraries, universities and other parts of the higher education and cultural heritage sector, and I offer a fresh creative perspective and innovative problem solving approach to a variety of other industries. 
               <br></br>
               <br></br>
-              Get the overview of my experience with my <button>Resume</button> or <button>CV</button>. 
+              Get the overview of my experience with my <a href = {resume} target = "_blank" class='btn btn-primary'>Resume</a> 
+              <br></br>
               <br></br>
               Or click on an option below to see more of my online portfolio.
               </Card.Text>
