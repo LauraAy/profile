@@ -36,6 +36,13 @@ $theme-colors: (
     color: green;
 }
 
+.card-text {
+    font-size: 18px;
+}
+
+.card-title {
+    font-size: 25px;
+}
 .blend_card {
     @include theme;
     padding: 50px 0px 0px 20px;
