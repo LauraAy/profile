@@ -15,7 +15,7 @@ $theme-colors: (
 @mixin theme($theme: #1c2a40) {
     background: $theme;
     color: #cbd9f0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Alexandria' sans-serif;
     
 }
 .navbar {
@@ -42,6 +42,10 @@ $theme-colors: (
 
 .card-title {
     font-size: 25px;
+}
+
+.card-subtitle {
+    font-size: 16px;
 }
 .blend_card {
     @include theme;
