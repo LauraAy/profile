@@ -28,7 +28,7 @@ const AboutCard = () => {
               With a Master's in Library and Information Science, a fullstack coding certificate, and a PhD specializing in book and media history, I know how to work with both big data and big ideas. I offer a unique blend of expertise and experience to libraries, universities and other parts of the higher education and cultural heritage sector, and I offer a fresh creative perspective and innovative problem solving approach to a variety of other industries. 
               <br></br>
               <br></br>
-              Get the overview of my experience with my <a href = {resume} target = "_blank" class='btn btn-primary'>Resume</a> 
+              Get the overview of my experience with my <a href = {resume} target = "blank" class='btn btn-primary'>resume</a> or go straight to the code at my <a href ="https://github.com/LauraAy " class='btn btn-primary'>github</a>
               <br></br>
               <br></br>
               Or click on an option below to see more of my online portfolio.

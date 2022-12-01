@@ -1,5 +1,10 @@
 import React from 'react'
 import {LinkContainer} from 'react-router-bootstrap'
+import Image from "react-bootstrap/Image";
+
+const devIcon = require('./developer.png')
+const managerIcon= require('./planning.png')
+const historianIcon= require('./teacher.png')
 
 const ThreeLinkCards = () => {
     return ( 
@@ -7,15 +12,18 @@ const ThreeLinkCards = () => {
 <div class="container">
     <div class="row" width="100%"> 
     <div class="col-sm blend_card">
-        <LinkContainer to="/developer" role="button">
+    <LinkContainer to="/developer" role="button">
+        <Image src={devIcon} max-width="40px"></Image>
+    </LinkContainer>
+    <LinkContainer to="/developer" role="button">
         <h4>Developer</h4>
-        </LinkContainer>  
-        <hr></hr>
-        <LinkContainer to="/developer" role ="button">
+    </LinkContainer>  
+    <hr></hr>
+    <LinkContainer to="/developer" role ="button">
         <p>
         Interested in the code? Click here to see a sample of my development work.
         </p>
-        </LinkContainer> 
+    </LinkContainer> 
         <ul>
             <li>Javascript & React</li>
             <li>Ruby on Rails</li>
@@ -27,22 +35,29 @@ const ThreeLinkCards = () => {
 
     <div class="col-sm blend_card">
     <LinkContainer to="/manager" role="button">
+        <Image src={managerIcon} max-width="40px"></Image>
+    </LinkContainer>
+    <LinkContainer to="/manager" role="button">
         <h4>Project Manager</h4>
-        </LinkContainer>  
+    </LinkContainer>  
         <hr></hr>
-        <LinkContainer to="/manager" role ="button">
+    <LinkContainer to="/manager" role ="button">
         <p>
         Looking for a project manager? Click here to learn more about my management experience.
         </p>
-        </LinkContainer> 
+     </LinkContainer> 
         <ul>
             <li>Agile and Scrum</li>
             <li>Grant Writing Experience</li>
+            <li>Collaboration and Communication</li>
             <li>and more...</li>
         </ul>  
     </div>
 
     <div class="col-sm blend_card">
+    <LinkContainer to="/historian" role="button">
+        <Image src={historianIcon} max-width="40px"></Image>
+    </LinkContainer>
     <LinkContainer to="/historian" role="button">
         <h4>Curator & Historian</h4>
         </LinkContainer>  
