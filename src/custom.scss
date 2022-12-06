@@ -36,21 +36,28 @@ $theme-colors: (
     color: green;
 }
 
-.card-text {
-    font-size: 18px;
-}
-
 .card-title {
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .card-subtitle {
-    font-size: 16px;
+    font-size: 15px;
 }
+
+.card-text {
+    font-size: 17px;
+}
+
 .blend_card {
     @include theme;
     padding: 50px 0px 0px 20px;
     
+}
+
+.blend_card2 {
+    @include theme;
+    padding: 0px 0px 0px 0px;
+
 }
 
 .list-custom {
