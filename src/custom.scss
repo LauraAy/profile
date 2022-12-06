@@ -56,8 +56,12 @@ $theme-colors: (
 
 .blend_card2 {
     @include theme;
-    padding: 0px 0px 0px 0px;
+    padding: 25px 25px 25px 25px;
+}
 
+.blend_card3 {
+    @include theme;
+    padding: 0px 0px 0px 0px;
 }
 
 .list-custom {
