@@ -52,7 +52,7 @@ const DevPortfolio = () => {
             <Col>
                 <Container class="blend_card2">
                     <a href="https://github.com/LauraAy/subpop">
-                    <Card.Img variant="top" src={POP} style={{width: "100%", maxHeight: "180px"}}/>
+                    <Card.Img variant="top" src={POP} style={{width: "100%", maxHeight: "220px"}}/>
                     </a>
                     <Card.Body>
                         <Card.Title>The Provenance Online Project</Card.Title>
@@ -68,7 +68,7 @@ const DevPortfolio = () => {
             <Col>
                 <Container class="blend_card2">
                     <a href="https://github.com/LauraAy/philadelphia_playbills">
-                    <Card.Img variant="top" src={Playbills} style={{maxHeight: "180px"}} />
+                    <Card.Img variant="top" src={Playbills} style={{maxHeight: "220px"}} />
                     </a>
                     <Card.Body>
                         <Card.Title>Philadelphia Playbills Project</Card.Title>

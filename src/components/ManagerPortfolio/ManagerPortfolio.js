@@ -20,7 +20,7 @@ const ManagerPortfolio = () => {
         <Col>
             <Container class="blend_card2">
                 <a href="https://provenanceonlineproject.wordpress.com/about/">
-                <Card.Img variant="top" src={POP} style={{width: "100%", maxHeight: "250px"}}/>
+                <Card.Img variant="top" src={POP} style={{width: "100%", maxHeight: "220px"}}/>
                 </a>
                 <Card.Body>
                 <Card.Title>The Provenance Online Project</Card.Title>
@@ -29,7 +29,9 @@ const ManagerPortfolio = () => {
                 The Provenance Online Project, or POP, based at Penn Libraries, is designed to 
                 document the past ownership of books ranging from medieval manuscripts to the present day. POP enables users to upload images of evidence 
                 pointing to who owned the book before such as bookplates, inscriptions, or stamps and then allows others to view the images and 
-                help identify the owners of the books. I led a project team consisting of developers, catalogers, curators, and 
+                help identify the owners of the books. 
+                <br></br>
+                I led a project team consisting of developers, catalogers, curators, and 
                 digital humanities experts. I supervised the work of establishing a data model for the project, transferring legacy images and 
                 metadata from the project's beginnings on Flickr into a sustainable format, and building an upload application to allow users to 
                 contribute images and metadata to a project database. I also promoted the project, both in presentations and on social media, 
@@ -43,7 +45,7 @@ const ManagerPortfolio = () => {
         <Col>
             <Container class="blend_card2">
                 <a href="https://philadelphiaplaybills.wordpress.com/">
-                <Card.Img variant="top" src={Playbills} style={{maxHeight: "250px"}} />
+                <Card.Img variant="top" src={Playbills} style={{maxHeight: "220px"}} />
                 </a>
                 <Card.Body>
                     <Card.Title>Philadelphia Playbills Project</Card.Title>
@@ -64,7 +66,7 @@ const ManagerPortfolio = () => {
         <Col>
             <Container class="blend_card2">
             <a href='https://dla.library.upenn.edu/dla/medren/search.html?fq=collection_facet%3A%22Indic%20Manuscripts%22'>
-            <Card.Img variant="top" src={Indic} style={{maxHeight: "250px"}}/>
+            <Card.Img variant="top" src={Indic} style={{maxHeight: "220px"}}/>
             </a>
                 <Card.Body>
                     <Card.Title>Indic Manuscripts</Card.Title>
@@ -80,7 +82,7 @@ const ManagerPortfolio = () => {
         <Col>
             <Container class="blend_card2">
             <a href='http://dla.library.upenn.edu/dla/print/search.html?q=playbills'>
-            <Card.Img variant="top" src={'indic'} style={{maxHeight: "250px"}}/>
+            <Card.Img variant="top" src={'indic'} style={{maxHeight: "220px"}}/>
             </a>
                 <Card.Body>
                     <Card.Title>Furness Playbills</Card.Title>
