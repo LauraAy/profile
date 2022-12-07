@@ -1,5 +1,4 @@
 import React from 'react'
-import {LinkContainer} from 'react-router-bootstrap'
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -10,9 +9,6 @@ import Recipe from './logo_mrb.png';
 import Garden from './GardenArray.png';
 import POP from './POPImage.png'
 import Playbills from './PlaybillsImage.png'
-
-
-
 
 const DevPortfolio = () => {
     return (
@@ -62,7 +58,7 @@ const DevPortfolio = () => {
                         <Card.Title>The Provenance Online Project</Card.Title>
                         <hr></hr>
                         <Card.Text>
-                        A Ruby on Rails application for crowdsourcing images and metadata for the Provenance Online Project (POP) at Penn Libraries. I contributed to front end code and search capabability in collaboration with the senior developer.
+                        A Ruby on Rails application for crowdsourcing images and metadata for the Provenance Online Project (POP) at Penn Libraries. I co-created the data model for the project, and contributed to front end code and search capabability in collaboration with the senior developer.
                         </Card.Text>
                         <a href="https://github.com/LauraAy/subpop" class='btn btn-primary'>POP Github</a>
                     </Card.Body>
@@ -89,7 +85,5 @@ const DevPortfolio = () => {
 </>
     );
 }
-
-
 
 export default DevPortfolio
