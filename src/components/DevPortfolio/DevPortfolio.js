@@ -3,7 +3,6 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 
 import Recipe from './logo_mrb.png';
 import Garden from './GardenArray.png';
