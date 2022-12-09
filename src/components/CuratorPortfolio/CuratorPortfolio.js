@@ -30,7 +30,14 @@ const CuratorPortfolio = () => {
                 <li>Intensive course in Medieval Latin paleography and codicology, Newberry Library, Fall 2011</li>
             </ul>
         </Container>
-
+        <Container className="blend_card2">
+            <Card.Title>Grant Writing</Card.Title>
+            <ul>
+                <li>Principal investigator, Linked Data for Philadelphia Theater History 
+                One year NEH Digital Humanities Advancement grant ($75,000)</li>
+                <li>Principal investigator, Mellon Microgrant for development of the Toolkit of Material Evidence (TOME), 2015-2016 ($6,925)</li>
+            </ul>
+        </Container>
         <Container className="blend_card2">
         <Card.Title>Exhibits</Card.Title>
         <Row xsm={2} className="blend_card2">
@@ -77,20 +84,19 @@ const CuratorPortfolio = () => {
         <Container className="blend_card2">
             <Card.Title>Publications</Card.Title>
             <ul>
-                <li>“Digitally Mapping Shakespeare’s Women: Place Names and a Woman’s Place in Othello and Midsummer” (Traveling/ Travailing Women: Early Modern England and the Wider World, University of Nebraska Press)</li>
+                <li>“Digitally Mapping Shakespeare's Women: Place Names and a Woman's Place in Othello and Midsummer” (Traveling/ Travailing Women: Early Modern England and the Wider World, University of Nebraska Press)</li>
                 <li>“The Stage and All the World: Shakespeare, Cervantes and Cartography”, Kislak Center for Special Collections, Rare Books and Manuscripts (April-May 2016)</li>
                 <li>“Martha Moulsworth,” “Richard Barnfield,” “Philemon Holland” The Encyclopedia of English Renaissance Literature. Chichester, UK: Wiley-Blackwell, 2012.</li>
             </ul>
         </Container>
+        <Container className="blend_card2">
+            <Card.Title>Blogs</Card.Title>
+            <ul>
+                <li><a href="https://provenanceonlineproject.wordpress.com/" class='btn btn-primary m-2'>Provenance Online Project Blog</a></li>
+                <li><a href="https://philadelphiaplaybills.wordpress.com/" class='btn btn-primary m-2'>Philadelphia Playbills Blog</a></li>
+            </ul>
+        </Container>
     </Container>
-
-
-
-                
-                
-        
-          
- 
         </>
     );
 }
