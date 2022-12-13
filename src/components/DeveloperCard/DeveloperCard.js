@@ -6,6 +6,8 @@ import DataSkillList from '../DataSkillList';
 
 const DeveloperCard = () => {
     return (
+<>
+<a name="top"></a>
 <Container>
     <div class="blend_card">
         <Card.Body>
@@ -22,7 +24,7 @@ const DeveloperCard = () => {
         </Card.Body>
     </div>
 </Container>
-
+</>
     )
 }
     

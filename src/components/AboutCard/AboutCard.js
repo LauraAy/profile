@@ -11,6 +11,8 @@ const cv = require('./Aydelotte_CV.pdf')
 
 const AboutCard = () => {
  return ( 
+  <>
+
   <Container>
     <Row>
       <Col xsm={12} sm={12} md={12} lg={4}>
@@ -23,10 +25,17 @@ const AboutCard = () => {
               <Card.Title>Laura Aydelotte</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">Developer, Project Manager, Book and Media Historian</Card.Subtitle>
               <Card.Text>
-              I'm a full stack developer who creates user centered applications with an elegant blend of form and function. My technical skills grew out of my experience as both a librarian with data management experience and a project manager guiding projects through their lifecycle from start to finish.  My understanding of both technical practice and larger level project needs makes me adept at building applications with creative solutions in response to user needs and fostering communication and collaboration between the user and development sides. 
+              I'm a full stack developer who creates user centered applications with an elegant blend of form and function. 
+              My technical skills grew out of my experience as a librarian with data management experience and as a project 
+              manager guiding projects through their lifecycle from start to finish.  My understanding of both technical practice 
+              and larger level project needs makes me adept at building applications with creative solutions in response to user needs 
+              and fostering communication and collaboration between the user and development sides. 
               <br></br>
               <br></br>
-              With a Master's in Library and Information Science, a fullstack coding certificate, and a PhD specializing in book and media history, I know how to work with both big data and big ideas. I offer a unique blend of expertise and experience to libraries, universities and other parts of the higher education and cultural heritage sector, and I offer a fresh creative perspective and innovative problem solving approach to a variety of other industries. 
+              With a Master's in Library and Information Science, a fullstack coding certificate, and a PhD specializing in book and media history,
+              I know how to work with both big data and big ideas. I offer a unique blend of expertise and experience to libraries, universities and 
+              other parts of the higher education and cultural heritage sector, and I offer a fresh creative perspective and innovative problem 
+              solving approach to a variety of other industries. 
               <br></br>
               <br></br>
               Get the overview of my experience with my <a href = {resume} target = "blank" class='btn btn-primary'>resume</a> or my <a href = {cv} target = "blank" class='btn btn-primary'>academic cv</a>
@@ -44,7 +53,7 @@ const AboutCard = () => {
     </Row>
   </Container>
 
- 
+  </>
   )
 }
 

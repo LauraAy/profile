@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 
 const HistorianCard = () => {
     return (
+ <>   
+ <a name="top"/> 
 <Container>
     <div class="blend_card">
         <Card.Body>
@@ -33,8 +35,8 @@ const HistorianCard = () => {
             to support the description and interpretation of those historical materials, as well as making images of 
             special collections material openly available online to share with the world. My role as curator of the Furness Shakespeare Libary at 
             Penn Libraries led to my work on the Philadelphia Playbills Project. My three years of work on the Provenance 
-            Online Project (POP), which aimed to digitally crowdsource identifications of ownership marks in rare books, also
-            provided me with the experience of working with a wide range of physical collection materials (largely American and European), 
+            Online Project (POP), which aimed to digitally crowdsource identifications of ownership marks in rare books,
+            provided me with the experience of working closely with a wide range of physical collection materials (largely American and European), 
             from the middle ages to the present day in collections from around the country. 
             <br></br>
             <br></br>
@@ -45,6 +47,7 @@ const HistorianCard = () => {
     </div>
 </Container>
 
+</>   
     )
 }
     

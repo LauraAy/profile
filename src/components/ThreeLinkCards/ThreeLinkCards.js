@@ -14,19 +14,19 @@ const ThreeLinkCards = () => {
     <div class="row" width="100%"> 
     <div class="col-sm blend_card">
     <Card.Body>
-    <LinkContainer to="/developer" role="button">
+    <a href="/developer#top" role="button">
         <Image src={devIcon} max-width="40px"></Image>
-    </LinkContainer>
-    <LinkContainer to="/developer" role="button">
+    </a>
+    <a href="/developer#top" class="link-custom">
         <Card.Title>Developer</Card.Title>
-        </LinkContainer>
+    </a>
     <hr></hr>
     <Card.Text>
-    <LinkContainer to="/developer" role ="button">
+    <a href="/developer#top" role ="button" class="link-custom">
         <p>
         Interested in the code? Click here to see a sample of my development work.
         </p>
-    </LinkContainer> 
+    </a> 
         <ul>
             <li>Javascript & React</li>
             <li>Ruby on Rails</li>
@@ -41,19 +41,19 @@ const ThreeLinkCards = () => {
 
     <div class="col-sm blend_card">
     <Card.Body>
-    <LinkContainer to="/manager" role="button">
+    <a href="/manager#top" role="button" class="link-custom">
         <Image src={managerIcon} max-width="40px"></Image>
-    </LinkContainer>
-    <LinkContainer to="/manager" role="button">
+    </a>
+    <a href="/manager#top" role="button" class="link-custom">
         <Card.Title>Project Manager</Card.Title>
-    </LinkContainer>  
+    </a>  
         <hr></hr>
     <Card.Text>
-    <LinkContainer to="/manager" role ="button">
+    <a href="/manager#top" role="button" class="link-custom">
         <p>
         Looking for a project manager? Click here to learn more about my management experience.
         </p>
-     </LinkContainer> 
+        </a>
         <ul>
             <li>Agile and Scrum</li>
             <li>Grant Writing Experience</li>
@@ -66,21 +66,21 @@ const ThreeLinkCards = () => {
 
     <div class="col-sm blend_card">
     <Card.Body>
-    <LinkContainer to="/historian" role="button">
+    <a href="/historian#top" role="button" class="link-custom">
         <Image src={historianIcon} max-width="40px"></Image>
-    </LinkContainer>
+    </a>
     <Card.Title>
-    <LinkContainer to="/historian" role="button">
+    <a href="/historian#top" role="button" class="link-custom">
         <h4>Curator & Historian</h4>
-        </LinkContainer>  
+        </a>  
         </Card.Title>
         <hr></hr>
         <Card.Text>
-        <LinkContainer to="/historian" role ="button">
+        <a href="/historian#top" role="button" class="link-custom">
         <p>
         Click here to learn more about my experience as a curator and historian of book and media history.
         </p>
-        </LinkContainer> 
+        </a> 
         <ul>
             <li>Special Collections Curator</li>
             <li>Early Modern Scholar</li>

@@ -1,18 +1,21 @@
 import React from "react";
-import ReactDom from "react-dom";
-import {HashRouter as Router} from "react-router-dom"
+import * as ReactDOM from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom";
+import reportWebVitals from "./reportWebVitals";
+
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import App from "./app.js"
+// import ScrollToTop from "./helpers/ScrollToTop";
 
-ReactDom.render(
-    <React.StrictMode>
-    <Router>
-        <App />
-    </Router>
-    </React.StrictMode>,
-    document.getElementById("root")
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <Router>
+    <App />
+  </Router>
 );
+
+reportWebVitals ();
 
 

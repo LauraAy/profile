@@ -16,10 +16,11 @@ const DevPortfolio = () => {
     <Card.Title>Select Applications and Datasets</Card.Title>
         <Row xs={1} md={2} className="blend_card2">
             <Col>
-                <Container class="blend_card2">
+                <Container className="blend_card2">
                     <a href='https://github.com/LauraAy/recipeBox'>
                     <Card.Img variant="top" src={Recipe} style={{maxHeight: "180px"}}/>
                     </a>
+                    <card border='light'>
                     <Card.Body>
                         <Card.Title>Recipe Box App</Card.Title>
                         <hr></hr>
@@ -29,11 +30,12 @@ const DevPortfolio = () => {
                         <a href="" class='btn btn-primary m-2'>Recipe Box App</a>
                         <a href = "https://github.com/LauraAy/recipeBox" class='btn btn-primary'>Recipe Box Github</a>
                     </Card.Body>
+                    </card>
                 </Container>
             </Col>
 
             <Col>
-                <Container class="blend_card2">
+                <Container className="blend_card2">
                     <a href = "https://github.com/LauraAy/GardenArray">
                     <Card.Img variant="top" src={Garden} style={{ maxHeight: "180px"}}/>
                     </a>
@@ -49,7 +51,7 @@ const DevPortfolio = () => {
             </Col>
 
             <Col>
-                <Container class="blend_card2">
+                <Container className="blend_card2">
                     <a href="https://github.com/LauraAy/subpop">
                     <Card.Img variant="top" src={POP} style={{width: "100%", maxHeight: "220px"}}/>
                     </a>
@@ -65,7 +67,7 @@ const DevPortfolio = () => {
             </Col>
 
             <Col>
-                <Container class="blend_card2">
+                <Container className="blend_card2">
                     <a href="https://github.com/LauraAy/philadelphia_playbills">
                     <Card.Img variant="top" src={Playbills} style={{maxHeight: "220px"}} />
                     </a>

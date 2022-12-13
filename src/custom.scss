@@ -31,11 +31,6 @@ $theme-colors: (
     color: #cbd9f0;
 }
 
-.navbar>.active>a {
-    background-color: yellow;
-    color: green;
-}
-
 .card-title {
     font-size: 24px;
 }
@@ -66,4 +61,17 @@ $theme-colors: (
 
 .list-custom {
     @include theme;
+}
+
+.link-custom
+{
+text-decoration: none;
+color: #cbd9f0;
+
+}
+
+a.link-custom:hover 
+{
+    text-decoration: none;
+    color: #FBFBFB; 
 }
