@@ -16,7 +16,9 @@ const AboutCard = () => {
   <Container>
     <Row>
       <Col xsm={12} sm={12} md={12} lg={4}>
-        <Image src={image} alt="Photograph of woman in white blouse." width="100%"/>
+      <div class="p-md-0 ps-5 pe-5">
+        <Image  src={image} alt="Photograph of woman in white blouse." width="100%"/>
+        </div>
       </Col>
       <Col xsm={12} sm= {12} md={12} lg={8}>
         <Container >
