@@ -7,7 +7,7 @@ function App() {
 
     return (
         <NavbarComponent />,
-        <RoutesTree />
+        <RoutesTree />   
     )
   }
 

@@ -2,7 +2,6 @@
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 
-
 $body-bg: #1c2a40;
 
 $theme-colors: (
@@ -75,3 +74,24 @@ a.link-custom:hover
     text-decoration: none;
     color: #FBFBFB; 
 }
+
+.footer{
+    color: #cbd9f0;
+    background-color: #0e1520;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: 1rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-height: 100px;
+  }
+
+  .right {
+    float: right;
+    font-size: 10px;
+  }
+
+  .space {
+    height: 100vh;
+  }
