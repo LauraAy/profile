@@ -16,7 +16,7 @@ const Footer = () => {
             </a>
             </h5>
             <div class="right">
-            <a href="https://www.flaticon.com/free-icons/developer" title="developer icons" class="link-custom">Developer icons created by Flat Icons - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/developer" title="developer icons" class="link-custom">People icons created by Flat Icons - Flaticon</a>
             </div>
         </Card.Body>
     </div>

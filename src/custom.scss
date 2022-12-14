@@ -8,6 +8,9 @@ $theme-colors: (
     primary: #cbd9f0
 );
 
+body {
+    padding-bottom: 110px;
+}
 
 @import "bootstrap";
 
@@ -89,7 +92,7 @@ a.link-custom:hover
 
   .right {
     float: right;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .space {
