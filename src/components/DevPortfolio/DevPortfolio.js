@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
-import Recipe from './logo_mrb.png';
+import Recipe from './YWC-rectangle-logo.png';
 import Garden from './GardenArray.png';
 import POP from './POPImage.png'
 import Playbills from './PlaybillsImage.png'
@@ -17,36 +17,20 @@ const DevPortfolio = () => {
         <Row xs={1} md={2} className="blend_card2">
             <Col>
                 <Container className="blend_card2">
-                    <a href='https://github.com/LauraAy/recipeBox'>
-                    <Card.Img variant="top" src={Recipe} style={{maxHeight: "180px"}}/>
+                    <a href='http://www.yourworldcookbook.com'>
+                    <Card.Img variant="top" src={Recipe} style={{maxHeight: "220px"}}/>
                     </a>
                     <card border='light'>
                     <Card.Body>
-                        <Card.Title>Recipe Box App</Card.Title>
+                        <Card.Title>Your World Cookbook</Card.Title>
                         <hr></hr>
                         <Card.Text>
-                        A React Application for entering and storing recipes. 
+                        A fullstack javascript application for entering recipes and attaching information about the region the recipe is from and more. React frontend and a backend built with a MySQL database using node.js, express, and sequelize.  
                         </Card.Text>
-                        <a href="" class='btn btn-primary m-2'>Recipe Box App</a>
-                        <a href = "https://github.com/LauraAy/recipeBox" class='btn btn-primary'>Recipe Box Github</a>
+                        <a href="http://www.yourworldcookbook.com" class='btn btn-primary m-2'>Website</a>
+                        <a href = "https://github.com/LauraAy/Your-World-Cookbook" class='btn btn-primary'>Github</a>
                     </Card.Body>
                     </card>
-                </Container>
-            </Col>
-
-            <Col>
-                <Container className="blend_card2">
-                    <a href = "https://github.com/LauraAy/GardenArray">
-                    <Card.Img variant="top" src={Garden} style={{ maxHeight: "180px"}}/>
-                    </a>
-                    <Card.Body>
-                        <Card.Title>Garden Array App</Card.Title>
-                        <hr></hr>
-                        <Card.Text>
-                        A React Application for keeping track of plants in your garden.
-                        </Card.Text>
-                        <a href="https://github.com/LauraAy/GardenArray" class='btn btn-primary'>Garden Array Github</a>
-                    </Card.Body>
                 </Container>
             </Col>
 
