@@ -1,8 +1,8 @@
 {
-  "name": "laura_ay.github.io",
+  "name": "Aydelotte Profile Page",
   "version": "0.1.0",
   "description": "My Home Page",
-  "homepage": "https://lauraay.github.io/",
+  "homepage": "http://www.lauraaydelotte.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,8 +21,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,9 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   },
   "main": "index.js",
   "repository": {
