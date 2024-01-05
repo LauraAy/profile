@@ -1,5 +1,6 @@
 import React from 'react'
 import {LinkContainer} from 'react-router-bootstrap'
+import { useNavigate } from 'react-router-dom';
 import Image from "react-bootstrap/Image";
 import { Card } from 'react-bootstrap';
 
@@ -7,19 +8,23 @@ const devIcon = require('./developer.png')
 const managerIcon= require('./planning.png')
 const historianIcon= require('./teacher.png')
 
+
 const ThreeLinkCards = () => {
+    let navigate = useNavigate();
+
+    const developerNav = () => {
+        navigate('/developer')
+    }
+
     return ( 
 
 <div class="container mt-3">
     <div class="row" width="100%"> 
     <div class="col-sm blend_card">
     <Card.Body>
-    <a href="/developer#top" role="button">
-        <Image src={devIcon} max-width="40px"></Image>
-    </a>
-    <a href="/developer" class="link-custom">
+    <Image src={devIcon} max-width="40px" onClick={developerNav}></Image>
+    <container onClick={developerNav}>
         <Card.Title>Developer</Card.Title>
-    </a>
     <hr></hr>
     <Card.Text>
     <a href="/developer#top" role ="button" class="link-custom">
@@ -35,6 +40,7 @@ const ThreeLinkCards = () => {
             <li>and more...</li>
         </ul> 
         </Card.Text>
+        </container>
         </Card.Body> 
     </div>
 

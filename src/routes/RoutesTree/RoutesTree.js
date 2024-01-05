@@ -11,7 +11,7 @@ const RoutesTree= () => {
     return (
       <div>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/developer" element={<Developer />} />
         <Route path="/manager" element={<Manager />} />
         <Route path="/historian" element={<Historian />} />
