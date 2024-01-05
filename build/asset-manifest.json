@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9798d6f1.css",
-    "main.js": "/static/js/main.60700421.js",
+    "main.js": "/static/js/main.04af3e72.js",
     "static/js/787.e658c15f.chunk.js": "/static/js/787.e658c15f.chunk.js",
     "static/media/Hamlet.jpg": "/static/media/Hamlet.f0104ea071b38bbc72ee.jpg",
     "static/media/PlaybillsImage.png": "/static/media/PlaybillsImage.030712c8ec724537ada8.png",
@@ -19,11 +19,11 @@
     "static/media/teacher.png": "/static/media/teacher.2e748939fbffc8cbe97a.png",
     "index.html": "/index.html",
     "main.9798d6f1.css.map": "/static/css/main.9798d6f1.css.map",
-    "main.60700421.js.map": "/static/js/main.60700421.js.map",
+    "main.04af3e72.js.map": "/static/js/main.04af3e72.js.map",
     "787.e658c15f.chunk.js.map": "/static/js/787.e658c15f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9798d6f1.css",
-    "static/js/main.60700421.js"
+    "static/js/main.04af3e72.js"
   ]
 }
