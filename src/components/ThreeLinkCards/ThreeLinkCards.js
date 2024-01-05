@@ -17,7 +17,7 @@ const ThreeLinkCards = () => {
     <a href="/developer#top" role="button">
         <Image src={devIcon} max-width="40px"></Image>
     </a>
-    <a href="/developer#top" class="link-custom">
+    <a href="/developer" class="link-custom">
         <Card.Title>Developer</Card.Title>
     </a>
     <hr></hr>
