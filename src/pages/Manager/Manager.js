@@ -6,7 +6,6 @@ import ManagerPortfolio from '../../components/ManagerPortfolio'
 const Manager = () => {
     return(
       <>
-       <Navbar />
        <ManagerCard />
        <ManagerPortfolio />
       </>

@@ -6,7 +6,6 @@ import ThreeLinkCards from '../../components/ThreeLinkCards'
 const Home = () => {
   return(
     <>
-     <Navbar/>
      <AboutCard />
      <ThreeLinkCards />
     </>

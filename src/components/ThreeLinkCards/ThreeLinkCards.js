@@ -17,7 +17,7 @@ const ThreeLinkCards = () => {
     }
 
     const managerNav = () => {
-        navigate('/manager#top')
+        navigate('/manager')
     }
 
     const historianNav = () => {
@@ -29,19 +29,14 @@ const ThreeLinkCards = () => {
 <div class="container mt-3">
     <div class="row" width="100%"> 
         <div class="col-sm blend_card" onClick={developerNav}>
-        <a href="/developer#top" role="button" class="link-custom">
             <Card.Body>
-              
-                    <Image src={devIcon} max-width="40px"></Image>
-                    <Card.Title>Developer</Card.Title>
-                
+                <Image src={devIcon} max-width="40px"></Image>
+                <Card.Title>Developer</Card.Title>
                 <hr></hr>
                 <Card.Text>
-
-                        <p>
-                            Interested in the code? Click here to see a sample of my development work.
-                        </p>
-                    
+                    <p>
+                        Interested in the code? Click here to see a sample of my development work.
+                    </p>
                     <ul>
                         <li>Javascript & React</li>
                         <li>Ruby on Rails</li>
@@ -51,62 +46,47 @@ const ThreeLinkCards = () => {
                     </ul> 
                 </Card.Text>
             </Card.Body> 
-            </a>
         </div>
-    
 
+        <div class="col-sm blend_card" onClick={managerNav}>
+            <Card.Body>
+                <Image src={managerIcon} max-width="40px"></Image>
+                <Card.Title>Project Manager</Card.Title>  
+                <hr></hr>
+                <Card.Text>
+                    <p>
+                        Looking for a project manager? Click here to learn more about my management experience.
+                    </p>
+                    <ul>
+                        <li>Agile and Scrum</li>
+                        <li>Grant Writing Experience</li>
+                        <li>Collaboration and Communication</li>
+                        <li>and more...</li>
+                    </ul>  
+                </Card.Text>
+            </Card.Body>
+        </div>
 
-    <div class="col-sm blend_card">
-    <Card.Body>
-    <a href="/manager#top" role="button" class="link-custom">
-        <Image src={managerIcon} max-width="40px"></Image>
-    </a>
-    <a href="/manager#top" role="button" class="link-custom">
-        <Card.Title>Project Manager</Card.Title>
-    </a>  
-        <hr></hr>
-    <Card.Text>
-    <a href="/manager#top" role="button" class="link-custom">
-        <p>
-        Looking for a project manager? Click here to learn more about my management experience.
-        </p>
-        </a>
-        <ul>
-            <li>Agile and Scrum</li>
-            <li>Grant Writing Experience</li>
-            <li>Collaboration and Communication</li>
-            <li>and more...</li>
-        </ul>  
-        </Card.Text>
-        </Card.Body>
-    </div>
-
-    <div class="col-sm blend_card">
-    <Card.Body>
-    <a href="/historian#top" role="button" class="link-custom">
-        <Image src={historianIcon} max-width="40px"></Image>
-    </a>
-    <Card.Title>
-    <a href="/historian#top" role="button" class="link-custom">
-        <h4>Curator & Historian</h4>
-        </a>  
-        </Card.Title>
-        <hr></hr>
-        <Card.Text>
-        <a href="/historian#top" role="button" class="link-custom">
-        <p>
-        Click here to learn more about my experience as a curator and historian of book and media history.
-        </p>
-        </a> 
-        <ul>
-            <li>Special Collections Curator</li>
-            <li>Early Modern Scholar</li>
-            <li>Provenance Expert</li>
-            <li>and more...</li>
-        </ul> 
-        </Card.Text>
-        </Card.Body> 
-    </div>
+        <div class="col-sm blend_card" onClick={historianNav}>
+            <Card.Body>
+                <Image src={historianIcon} max-width="40px"></Image>
+                <Card.Title>
+                    <h4>Curator & Historian</h4> 
+                </Card.Title>
+                <hr></hr>
+                <Card.Text>
+                    <p>
+                        Click here to learn more about my experience as a curator and historian of book and media history.
+                    </p> 
+                    <ul>
+                        <li>Special Collections Curator</li>
+                        <li>Early Modern Scholar</li>
+                        <li>Provenance Expert</li>
+                        <li>and more...</li>
+                    </ul> 
+                </Card.Text>
+            </Card.Body> 
+        </div>
     </div>
 </div>
 

@@ -6,7 +6,6 @@ import CuratorPortfolio from '../../components/CuratorPortfolio'
 const Historian = () => {
     return(
       <>
-       <Navbar/>
        <HistorianCard />
        <CuratorPortfolio />
       </>

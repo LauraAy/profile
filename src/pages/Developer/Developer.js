@@ -6,7 +6,6 @@ import DevPortfolio from '../../components/DevPortfolio'
 const Developer = () => {
     return(
       <>
-       <Navbar />
        <DeveloperCard />
        <DevPortfolio />
       </>
