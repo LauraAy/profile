@@ -29,18 +29,19 @@ const ThreeLinkCards = () => {
 <div class="container mt-3">
     <div class="row" width="100%"> 
         <div class="col-sm blend_card" onClick={developerNav}>
+        <a href="/developer#top" role="button" class="link-custom">
             <Card.Body>
-                <a href="/developer#top" role="button" class="link-custom">
+              
                     <Image src={devIcon} max-width="40px"></Image>
-                </a>
-                <Card.Title>Developer</Card.Title>
+                    <Card.Title>Developer</Card.Title>
+                
                 <hr></hr>
                 <Card.Text>
-                    <a href="/developer#top" role ="button" class="link-custom">
+
                         <p>
                             Interested in the code? Click here to see a sample of my development work.
                         </p>
-                    </a> 
+                    
                     <ul>
                         <li>Javascript & React</li>
                         <li>Ruby on Rails</li>
@@ -50,6 +51,7 @@ const ThreeLinkCards = () => {
                     </ul> 
                 </Card.Text>
             </Card.Body> 
+            </a>
         </div>
     
 
