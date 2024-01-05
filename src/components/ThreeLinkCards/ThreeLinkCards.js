@@ -13,7 +13,7 @@ const ThreeLinkCards = () => {
     let navigate = useNavigate();
 
     const developerNav = () => {
-        navigate('/developer#top')
+        navigate('/developer')
     }
 
     const managerNav = () => {
