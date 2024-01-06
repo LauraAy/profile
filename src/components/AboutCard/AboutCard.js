@@ -16,16 +16,22 @@ const AboutCard = () => {
   <Container>
     <Row>
       <Col xsm={12} sm={12} md={12} lg={4}>
+        <Container >
+          <div class="blend_card">
+            <Card.Body>
+              <Card.Title><h1>Laura Aydelotte</h1></Card.Title>
+              <Card.Subtitle className="mb-2">Developer, Project Manager, Book and Media Historian</Card.Subtitle>
       <div class="p-md-0 ps-5 pe-5">
-        <Image  src={image} alt="Photograph of woman in white blouse." width="100%"/>
+              <Image  src={image} alt="Photograph of woman in white blouse." width="100%"/>
         </div>
+            </Card.Body>
+          </div>
+        </Container>
       </Col>
       <Col xsm={12} sm= {12} md={12} lg={8}>
         <Container >
           <div class="blend_card">
           <Card.Body>
-              <Card.Title>Laura Aydelotte</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Developer, Project Manager, Book and Media Historian</Card.Subtitle>
               <Card.Text>
               I'm a full stack developer who creates user centered applications with an elegant blend of form and function. 
               My technical skills grew out of my experience as a librarian with data management experience and as a project 
