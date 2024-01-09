@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.9798d6f1.css",
-    "main.js": "/static/js/main.50306aa6.js",
+    "main.js": "/static/js/main.26eda2ff.js",
     "static/js/787.e658c15f.chunk.js": "/static/js/787.e658c15f.chunk.js",
     "static/media/Hamlet.jpg": "/static/media/Hamlet.f0104ea071b38bbc72ee.jpg",
     "static/media/PlaybillsImage.png": "/static/media/PlaybillsImage.030712c8ec724537ada8.png",
-    "static/media/Headshot4.jpg": "/static/media/Headshot4.594b9513a4b757a97d66.jpg",
+    "static/media/Headshot4.jpg": "/static/media/Headshot4.f1835281151825a897a0.jpg",
     "static/media/playbills.jpg": "/static/media/playbills.cde2805987ffc5410b18.jpg",
     "static/media/POPImage.png": "/static/media/POPImage.9cfb1297096feaa3f549.png",
     "static/media/stratford.jpeg": "/static/media/stratford.a34a59584bb37594160a.jpeg",
@@ -19,11 +19,11 @@
     "static/media/teacher.png": "/static/media/teacher.2e748939fbffc8cbe97a.png",
     "index.html": "/index.html",
     "main.9798d6f1.css.map": "/static/css/main.9798d6f1.css.map",
-    "main.50306aa6.js.map": "/static/js/main.50306aa6.js.map",
+    "main.26eda2ff.js.map": "/static/js/main.26eda2ff.js.map",
     "787.e658c15f.chunk.js.map": "/static/js/787.e658c15f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9798d6f1.css",
-    "static/js/main.50306aa6.js"
+    "static/js/main.26eda2ff.js"
   ]
 }
