@@ -1,36 +1,31 @@
 import React from 'react'
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Navbar, Nav, Container} from 'react-bootstrap';
+// import Container from 'react-bootstrap/Container'
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import {LinkContainer} from 'react-router-bootstrap'
 
 
 const NavbarComponent = () => {
  return ( 
     <>
-      <Navbar class="fixed-top" variant="dark">
-        <LinkContainer to="/">
-          <Navbar.Brand>Laura Aydelotte</Navbar.Brand>
-        </LinkContainer>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-          <LinkContainer to="/">
-            <Nav.Link>Home</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/developer">
-            <Nav.Link>Developer</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/manager">
-            <Nav.Link>Manager</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/historian">
-            <Nav.Link>Historian</Nav.Link>
-          </LinkContainer>
-          </Nav>
-        </Navbar.Collapse>
+      <Navbar expand="lg"  class="fixed-top" variant="dark">
+        <Container>
+          <Navbar.Brand href="/">Laura Aydelotte</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/developer">Developer</Nav.Link>
+              <Nav.Link href="manager">Manager</Nav.Link>
+              <Nav.Link href="historian">Historian</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
       </Navbar>
     </>
-  )
+  );
 }
 
 export default NavbarComponent

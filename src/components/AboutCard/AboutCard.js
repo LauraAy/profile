@@ -21,7 +21,7 @@ const AboutCard = () => {
             <Card.Body>
               <Card.Title><h1>Laura Aydelotte</h1></Card.Title>
               <Card.Subtitle className="mb-2">Developer, Project Manager, Book and Media Historian</Card.Subtitle>
-      <div class="p-md-0 ps-5 pe-5">
+      <div class="p-md-0 px-5">
               <Image  src={image} alt="Photograph of woman in white blouse." width="100%"/>
         </div>
             </Card.Body>
