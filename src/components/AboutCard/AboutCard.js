@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from "react-bootstrap/Image";
 
-const image = require('./Headshot4.jpg')
+const image = require('./Headshot5.jpg')
 const resume = require('./Aydelotte_resume_tech.pdf')
 const cv = require('./Aydelotte_CV.pdf')
 
