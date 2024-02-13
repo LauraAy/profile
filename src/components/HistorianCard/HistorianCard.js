@@ -18,7 +18,7 @@ const HistorianCard = () => {
             transitioned into the start of printing with the 1450 invention of the printing press, to our own 
             modern era when that era of print technology is transitioning into the internet age. I have over 6 years
             of experience working with Special Collections materials at the Newberry Library, Princeton University,
-            and the University of Pennsylvania, including my role as curtor for the Furness Shakespeare Library at Penn
+            and the University of Pennsylvania, including my role as interim curator for the Furness Shakespeare Library at Penn
             Libraries. 
             <br></br>
             <br></br>
@@ -33,7 +33,7 @@ const HistorianCard = () => {
             curator working to maintain, preserve, and grow collections of historical books and manuscripts, 
             and as a digital specialist supervising digital projects that provide creative technical solutions
             to support the description and interpretation of those historical materials, as well as making images of 
-            special collections material openly available online to share with the world. My role as curator of the Furness Shakespeare Libary at 
+            special collections material openly available online to share with the world. My role as interim curator of the Furness Shakespeare Libary at 
             Penn Libraries led to my work on the Philadelphia Playbills Project. My three years of work on the Provenance 
             Online Project (POP), which aimed to digitally crowdsource identifications of ownership marks in rare books,
             provided me with the experience of working closely with a wide range of physical collection materials (largely American and European), 
