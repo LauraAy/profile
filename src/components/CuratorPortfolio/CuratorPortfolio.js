@@ -18,7 +18,7 @@ const CuratorPortfolio = () => {
                 <li>Advanced Reading Italian</li>
                 <li>Intermediate Spanish</li>
                 <li>Intermediate Latin</li>
-                <li>Intermediate Anglo Saxon (Old English)</li>
+                <li>Basic Anglo Saxon (Old English)</li>
             </ul>
         </Container>
         <Container className="blend_card2">
