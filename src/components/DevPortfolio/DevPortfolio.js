@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
 import Recipe from './YWC-rectangle-logo.png';
-import Garden from './GardenArray.png';
 import POP from './POPImage.png'
 import Playbills from './PlaybillsImage.png'
+import Gorillas from './GorillasImage.png'
 
 const DevPortfolio = () => {
     return (
@@ -63,6 +63,29 @@ const DevPortfolio = () => {
                         </Card.Text>
                         <a href="https://github.com/LauraAy/philadelphia_playbills" class='btn btn-primary'>Playbills Github</a>
                     </Card.Body>
+                </Container>
+            </Col>
+        </Row>
+    </Container>
+    <Container className="blend_card2">
+    <Card.Title>Just for fun</Card.Title>
+        <Row xs={1} md={2} className="blend_card2">
+            <Col>
+                <Container className="blend_card2">
+                    <a href='https://lauraay.github.io/GorillaWarofWords/'>
+                    <Card.Img variant="top" src={Gorillas} style={{maxHeight: "220px"}}/>
+                    </a>
+                    <card border='light'>
+                    <Card.Body>
+                        <Card.Title>Gorillas War of Words Game</Card.Title>
+                        <hr></hr>
+                        <Card.Text>
+                        A fun literary twist on a classic game using javascript, html, canvas, and css. Note that, since this was built just for fun, this game is not yet compatible with touch screen use, but should work great with a mouse on a computer..
+                        </Card.Text>
+                        <a href="https://lauraay.github.io/GorillaWarofWords/" class='btn btn-primary m-2'>Website</a>
+                        <a href = "https://github.com/LauraAy/GorillaWarofWords/" class='btn btn-primary'>Github</a>
+                    </Card.Body>
+                    </card>
                 </Container>
             </Col>
         </Row>
