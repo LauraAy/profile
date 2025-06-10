@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Image from "react-bootstrap/Image";
 
 const image = require('./Headshot5.jpg')
-const resume = require('./Aydelotte_resume_tech.pdf')
+const resume = require('./Aydelotte_resume_general.pdf')
 const cv = require('./Aydelotte_CV.pdf')
 
 const AboutCard = () => {
@@ -33,17 +33,16 @@ const AboutCard = () => {
           <div class="blend_card">
           <Card.Body>
               <Card.Text>
-              I'm a full stack developer who creates user centered applications with an elegant blend of form and function. 
-              My technical skills grew out of my experience as a librarian with data management experience and as a project 
-              manager guiding projects through their lifecycle from start to finish.  My understanding of both technical practice 
-              and larger level project needs makes me adept at building applications with creative solutions in response to user needs 
-              and fostering communication and collaboration between the user and development sides. 
+              I am a Project Manager and Full Stack developer with over 5 years of experience managing projects, curating data,
+              and contributing code to applications. My technical skills grew out of my experience working in university libraries, 
+              including the University of Pennsylvania and Princeton University, where I led cross-functional digital projects through their 
+              lifecycle from start to finish, both fostering productive communication among project stakeholders, writing the technical 
+              requirements for both data management and application development, and pushing code to git along with the development team.   
               <br></br>
               <br></br>
-              With a Master's in Library and Information Science, a fullstack coding certificate, and a PhD specializing in book and media history,
-              I know how to work with both big data and big ideas. I offer a unique blend of expertise and experience to libraries, universities and 
-              other parts of the higher education and cultural heritage sector, and I offer a fresh creative perspective and innovative problem 
-              solving approach to a variety of other industries. 
+              My understanding of both technical practice and larger level project needs makes me adept at building applications with creative solutions in response to user needs 
+              and fostering communication and collaboration between the user and development sides. With a Master's in Library and Information Science, a full stack coding certificate, and a PhD specializing in book and media history,
+              I know how to work with both big data and big ideas. 
               <br></br>
               <br></br>
               Get the overview of my experience with my <a href = {resume} target = "blank" class='btn btn-primary'>resume</a> or my <a href = {cv} target = "blank" class='btn btn-primary'>academic cv</a>
