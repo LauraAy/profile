@@ -28,6 +28,26 @@ const ThreeLinkCards = () => {
 
 <div class="container mt-3">
     <div class="row" width="100%"> 
+
+    <div class="col-sm blend_card" onClick={managerNav}>
+            <Card.Body>
+                <Image src={managerIcon} max-width="40px"></Image>
+                <Card.Title>Project Manager</Card.Title>  
+                <hr></hr>
+                <Card.Text>
+                    <p>
+                        Looking for a project manager? Click here to learn more about my management experience.
+                    </p>
+                    <ul>
+                        <li>Agile and Scrum</li>
+                        <li>Grant Writing Experience</li>
+                        <li>Collaboration and Communication</li>
+                        <li>and more...</li>
+                    </ul>  
+                </Card.Text>
+            </Card.Body>
+        </div>
+        
         <div class="col-sm blend_card" onClick={developerNav}>
             <Card.Body>
                 <Image src={devIcon} max-width="40px"></Image>
@@ -46,25 +66,6 @@ const ThreeLinkCards = () => {
                     </ul> 
                 </Card.Text>
             </Card.Body> 
-        </div>
-
-        <div class="col-sm blend_card" onClick={managerNav}>
-            <Card.Body>
-                <Image src={managerIcon} max-width="40px"></Image>
-                <Card.Title>Project Manager</Card.Title>  
-                <hr></hr>
-                <Card.Text>
-                    <p>
-                        Looking for a project manager? Click here to learn more about my management experience.
-                    </p>
-                    <ul>
-                        <li>Agile and Scrum</li>
-                        <li>Grant Writing Experience</li>
-                        <li>Collaboration and Communication</li>
-                        <li>and more...</li>
-                    </ul>  
-                </Card.Text>
-            </Card.Body>
         </div>
 
         <div class="col-sm blend_card" onClick={historianNav}>
