@@ -33,16 +33,15 @@ const AboutCard = () => {
           <div class="blend_card">
           <Card.Body>
               <Card.Text>
-              I am a Project Manager and Full Stack developer with 6 years of experience managing projects, curating data,
-              and contributing code to applications. My technical skills grew out of my experience working in university libraries, 
-              including the University of Pennsylvania and Princeton University, where I led cross-functional digital projects through their 
-              lifecycle from start to finish, both fostering productive communication among project stakeholders, writing the technical 
-              requirements for both data management and application development, and pushing code to git along with the development team.   
+              
+I'm a Project Manager and Full Stack Developer with 6 years of experience leading digital projects, managing data, and writing code. My background includes roles at the University of Pennsylvania and Princeton, where I guided cross-functional teams from concept to launch, translating complex needs into technical requirements and writing code for both data management and application development.
+
+
+             
               <br></br>
               <br></br>
-              My understanding of both technical practice and larger level project needs makes me adept at building applications with creative solutions in response to user needs 
-              and fostering communication and collaboration between the user and development sides. With a Master's in Library and Information Science, a full stack coding certificate, and a PhD specializing in book and media history,
-              I know how to work with both big data and big ideas. 
+              With a Master's in Library and Information Science, a PhD in book and media history, and a full stack coding certificate, I bridge the gap between users and developers—combining technical skill with big-picture thinking to build creative, user-focused solutions.
+
               <br></br>
               <br></br>
               Get the overview of my experience with my <a href = {resume} target = "blank" class='btn btn-primary'>resume</a> or my <a href = {cv} target = "blank" class='btn btn-primary'>academic cv</a>

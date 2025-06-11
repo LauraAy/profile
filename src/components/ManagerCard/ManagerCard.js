@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import ManageSkillList from '../../components/ManageSkillList';
 
-const DeveloperCard = () => {
+const ManagerCard = () => {
     return (
 <>
 <a name="top"/>
@@ -15,14 +15,13 @@ const DeveloperCard = () => {
             </h3>
             <Card.Text>
             I offer 6 years of experience as a project manager, most recently leading app development and other cross-functional projects at 
-            the University of Pennsylvania and Princeton University. I bring a strong set communication and organizational skills to ensure that the project is guided smoothly
-            from initiall planning conversations with stakeholders, to smart resource allocation, risk management strategies, to experience setting up productive timelines and workflows that will 
-            take your project from inception to success. 
+            the University of Pennsylvania and Princeton University, with prior experience in Program and Event Management at the Newberry Library.
+            I bring a strong set of communication and organizational skills to ensure that the project is guided smoothly
+            from initiall planning conversations with stakeholders, to smart resource allocation, risk management strategies, and setting up productive timelines and workflows that will 
+            take your project from ideas to successful reality. 
 
              </Card.Text>
 
-             <br></br>
-             <br></br>
                 <ManageSkillList />
         </Card.Body>
     </div>
@@ -31,4 +30,4 @@ const DeveloperCard = () => {
     )
 }
     
-export default DeveloperCard
+export default ManagerCard

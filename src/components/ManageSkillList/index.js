@@ -1,1 +1,1 @@
-// export {default} from './ManageSkillList'
+export {default} from './ManageSkillList.js'
