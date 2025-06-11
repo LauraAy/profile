@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
+import ManageSkillList from '../../components/ManageSkillList';
 
 const DeveloperCard = () => {
     return (
@@ -13,13 +14,16 @@ const DeveloperCard = () => {
             Project Manager
             </h3>
             <Card.Text>
-            I offer 6 years of experience as a project manager with particular expertise leading projects in Libraries, Universities and Museums, 
-            including the Newberry Library, the University of Pennsylvania, and Princeton University. I have taken the lead on projects that encompass 
-            the building of new applications, the production of new data sets, and the digitization of rare books materials. I am familiar with popular management 
-            practices such as Agile and Scrum and am practiced at both fostering communication and productive internal collaboration between developers, administrators,
-             data and metadata experts, conservators, and curators. I am also experienced facilitating conversations with users and donors, building collaboration across
-            multiple institutions, and writing grants.   
+            I offer 6 years of experience as a project manager, most recently leading app development and other cross-functional projects at 
+            the University of Pennsylvania and Princeton University. I bring a strong set communication and organizational skills to ensure that the project is guided smoothly
+            from initiall planning conversations with stakeholders, to smart resource allocation, risk management strategies, to experience setting up productive timelines and workflows that will 
+            take your project from inception to success. 
+
              </Card.Text>
+
+             <br></br>
+             <br></br>
+                <ManageSkillList />
         </Card.Body>
     </div>
 </Container>

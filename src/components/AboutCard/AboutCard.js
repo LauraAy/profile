@@ -33,7 +33,7 @@ const AboutCard = () => {
           <div class="blend_card">
           <Card.Body>
               <Card.Text>
-              I am a Project Manager and Full Stack developer with over 5 years of experience managing projects, curating data,
+              I am a Project Manager and Full Stack developer with 6 years of experience managing projects, curating data,
               and contributing code to applications. My technical skills grew out of my experience working in university libraries, 
               including the University of Pennsylvania and Princeton University, where I led cross-functional digital projects through their 
               lifecycle from start to finish, both fostering productive communication among project stakeholders, writing the technical 
