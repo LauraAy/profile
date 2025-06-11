@@ -18,7 +18,8 @@ const ManagerCard = () => {
             the University of Pennsylvania and Princeton University, with prior experience in Program and Event Management at the Newberry Library.
             I bring a strong set of communication and organizational skills to ensure that the project is guided smoothly
             from initiall planning conversations with stakeholders, to smart resource allocation, risk management strategies, and setting up productive timelines and workflows that will 
-            take your project from ideas to successful reality. 
+            take your project from ideas to successful reality. I am currently enrolled in the Calbright Project Management program, which is keeping me up to date on the most 
+            current project management techniques in preparation for future PMP certification. 
 
              </Card.Text>
 
