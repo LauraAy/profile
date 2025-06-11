@@ -34,12 +34,12 @@ const AboutCard = () => {
           <Card.Body>
               <Card.Text>
               
-I'm a Project Manager and Full Stack Developer with 6 years of experience leading digital projects, managing data, and writing code. My background includes roles at the University of Pennsylvania and Princeton, where I guided cross-functional teams from concept to launch, translating complex needs into technical requirements and writing code for both data management and application development.
+I'm a Project Manager and Full Stack Developer with 6 years of experience leading digital projects, managing data, and writing code. My background includes roles at the University of Pennsylvania and Princeton, where I guided cross-functional teams from concept to launch, translating complex needs into technical requirements and writing code for both data management and application development in Javascript(Node, React), Python(Django), SQL, and more.
 
 
              
               <br></br>
-              <br></br>
+              <br></br>              
               With a Master's in Library and Information Science, a PhD in book and media history, and a full stack coding certificate, I bridge the gap between users and developers—combining technical skill with big-picture thinking to build creative, user-focused solutions.
 
               <br></br>
