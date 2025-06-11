@@ -12,12 +12,12 @@ const historianIcon= require('./teacher.png')
 const ThreeLinkCards = () => {
     let navigate = useNavigate();
 
-    const developerNav = () => {
-        navigate('/developer')
-    }
-
     const managerNav = () => {
         navigate('/manager')
+    }
+
+    const developerNav = () => {
+        navigate('/developer')
     }
 
     const historianNav = () => {
