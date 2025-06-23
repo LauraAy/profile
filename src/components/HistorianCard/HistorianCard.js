@@ -33,11 +33,17 @@ const HistorianCard = () => {
             curator working to maintain, preserve, and grow collections of historical books and manuscripts, 
             and as a digital specialist supervising digital projects that provide creative technical solutions
             to support the description and interpretation of those historical materials, as well as making images of 
-            special collections material openly available online to share with the world. My role as interim curator of the Furness Shakespeare Libary at 
-            Penn Libraries led to my work on the Philadelphia Playbills Project. My three years of work on the Provenance 
-            Online Project (POP), which aimed to digitally crowdsource identifications of ownership marks in rare books,
+            special collections material openly available online to share with the world. 
+            <br></br>
+            <br></br>
+            My role as interim curator of the Furness Shakespeare Libary at 
+            Penn Libraries led to me writing the successful NEH grant that launched the Philadelphia Playbills Project to crowdsource transcriptions
+            and produce quality metadata for Penn's collectoin of theatrical playbills. My three years of work on the Provenance 
+            Online Project (POP), which aimed to digitally crowdsource identifications of ownership marks in rare books, meant 
             provided me with the experience of working closely with a wide range of physical collection materials (largely American and European), 
-            from the middle ages to the present day in collections from around the country. 
+            from the middle ages to the present day in collections from around the country. My work on POP included collaboration with 
+            libraries both nationally and internationally to establish metadata standards for describing ownership provenance in special 
+            collections and archives.
             <br></br>
             <br></br>
             Some of my current research activities include a book in progress on the history of women's book ownership pre 1800, and
